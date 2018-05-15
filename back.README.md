@@ -1,19 +1,6 @@
-# Buchhalter
+## Overview
 
 Library to handle double entry accounting with Elixir.
-
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `buchhalter` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:buchhalter, "~> 0.1.0"}
-  ]
-end
-```
 
 ## Creating Accounts
 
