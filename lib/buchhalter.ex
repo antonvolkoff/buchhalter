@@ -3,16 +3,9 @@ defmodule Buchhalter do
   Documentation for Buchhalter.
   """
 
-  @doc """
-  Hello world.
+  alias Buchhalter.Book
 
-  ## Examples
-
-      iex> Buchhalter.hello
-      :world
-
-  """
-  def hello do
-    :world
+  def book(name) do
+    %Book{name: name}
   end
 end
