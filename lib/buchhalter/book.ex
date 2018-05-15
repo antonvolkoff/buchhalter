@@ -1,3 +1,3 @@
 defmodule Buchhalter.Book do
-  defstruct [:name]
+  defstruct [:name, :accounts]
 end
